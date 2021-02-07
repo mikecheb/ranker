@@ -1,0 +1,27 @@
+.villager-tile {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.villager-tile__image-container {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.villager-tile__image {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.villager-tile__name {
+    background-color: lightgrey;
+    text-align: center;
+    height: 20px;
+}
